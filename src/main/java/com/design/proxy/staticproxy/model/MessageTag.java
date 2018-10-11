@@ -1,4 +1,4 @@
-package com.design.proxy.code.model;
+package com.design.proxy.staticproxy.model;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
