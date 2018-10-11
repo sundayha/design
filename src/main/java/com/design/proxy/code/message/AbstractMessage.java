@@ -1,6 +1,6 @@
-package com.design.proxy.message;
+package com.design.proxy.code.message;
 
-import com.design.proxy.model.MessageTag;
+import com.design.proxy.code.model.MessageTag;
 
 /**
  * @author 张博 [zhangb@novadeep.com]

@@ -1,7 +1,7 @@
-package com.design.proxy;
+package com.design.proxy.code;
 
-import com.design.proxy.message.AbstractMessage;
-import com.design.proxy.model.MessageTag;
+import com.design.proxy.code.message.AbstractMessage;
+import com.design.proxy.code.model.MessageTag;
 
 /**
  * @author 张博【zhangb@lianliantech.cn】
