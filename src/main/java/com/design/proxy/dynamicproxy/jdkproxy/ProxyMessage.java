@@ -13,6 +13,13 @@ public class ProxyMessage implements InvocationHandler {
 
     private Object targetProxy;
 
+    /**
+     * 创建人：张博 [zhangb@novadeep.com]
+     * 时间：2018/10/12 9:37 AM
+     * @param targetProxy 需要代理的目标类对象
+     * @apiNote 返回实现了指定接口代理类的实例
+     * @return Object
+     */
     public Object newInstance(Object targetProxy) {
         this.targetProxy = targetProxy;
         return Proxy.newProxyInstance(targetProxy.getClass().getClassLoader(), targetProxy.getClass().getInterfaces(), this);
