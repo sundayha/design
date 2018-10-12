@@ -17,7 +17,7 @@ public class ProxyMessage implements InvocationHandler {
      * 创建人：张博 [zhangb@novadeep.com]
      * 时间：2018/10/12 9:37 AM
      * @param targetProxy 需要代理的目标类对象
-     * @apiNote 返回实现了指定接口代理类的实例
+     * @apiNote 返回 IMessage 接口实现类 MessageService 的子类
      * @return Object
      */
     public Object newInstance(Object targetProxy) {
