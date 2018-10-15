@@ -5,14 +5,13 @@ package com.design.factory;
  */
 public class PhoneFactory<I> {
 
-    @SuppressWarnings("unchecked")
-    public <T> T newInstance(Class<T> tClass) {
-        I i = null;
+    public <T extends I> T newInstance(Class<T> tClass) {
+        T i = null;
         try {
-           i = (I) Class.forName(tClass.getName()).newInstance();
+           i = tClass.cast(Class.forName(tClass.getName()).newInstance());
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return (T) i;
+        return i;
     }
 }
