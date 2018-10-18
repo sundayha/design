@@ -1,4 +1,4 @@
-package com.design.Delegate;
+package com.design.delegate;
 
 import java.util.HashMap;
 import java.util.Map;

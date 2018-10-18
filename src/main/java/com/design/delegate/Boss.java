@@ -1,4 +1,4 @@
-package com.design.Delegate;
+package com.design.delegate;
 
 /**
  * @author 张博 [zhangb@novadeep.com]
