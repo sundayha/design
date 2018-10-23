@@ -1,7 +1,8 @@
 # design
 java design
 
-##### proxy 实现
-##### factory 实现
-##### singleton 实现
-##### delegate 实现
+##### proxy 代理实现
+##### factory 工厂实现
+##### singleton 单例实现
+##### delegate 委派实现
+##### strategy 策略实现
