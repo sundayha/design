@@ -33,6 +33,11 @@ public class Person implements Cloneable {
         this.introduce = introduce;
     }
 
+    /**
+     * 深复制，重新 clone 方法进行深复制。
+     * @return Person
+     * @throws CloneNotSupportedException 不支持 clone
+     */
     @Override
     protected Person clone() throws CloneNotSupportedException {
         Person person = (Person) super.clone();
